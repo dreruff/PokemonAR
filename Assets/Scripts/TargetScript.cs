@@ -35,10 +35,15 @@ public class TargetScript : MonoBehaviour, ITrackableEventHandler {
 			// Enable canvas when target is found
 			canvas.enabled = true;
 
-			ArrayList arr = canvas.GetComponent<SQLite> ().GetPokemon ("001");
-			System.Text.StringBuilder sb = new System.Text.StringBuilder ();
 
-			sb.Length = 0;
+			LoomManager.Loom.QueueOnMainThread (() => {
+				
+			
+			ArrayList pokemon = canvas.GetComponent<SQLite> ().GetPokemon (PokemonTargetId);
+			canvas.GetComponent<CanvasScript> ().UpdatePokedex (pokemon);
+
+			});
+			/*sb.Length = 0;
 			sb.Append (arr[0]).Append (" ");
 			sb.Append (arr[1]).Append (" ");
 			sb.Append (arr[2]).Append (" ");
@@ -49,7 +54,7 @@ public class TargetScript : MonoBehaviour, ITrackableEventHandler {
 			sb.Append (arr[7]).Append (" ");
 			sb.AppendLine ();
 
-			Debug.Log(sb.ToString());
+			Debug.Log(sb.ToString());*/
 		}
 		else
 		{
