@@ -6,6 +6,8 @@ using SQLiter;
 
 public class TargetScript : MonoBehaviour, ITrackableEventHandler {
 
+	public string PokemonTargetId;
+
 	private TrackableBehaviour mTrackableBehaviour;
 
 	Canvas canvas;
@@ -44,6 +46,7 @@ public class TargetScript : MonoBehaviour, ITrackableEventHandler {
 			sb.Append (arr[4]).Append (" ");
 			sb.Append (arr[5]).Append (" ");
 			sb.Append (arr[6]).Append (" ");
+			sb.Append (arr[7]).Append (" ");
 			sb.AppendLine ();
 
 			Debug.Log(sb.ToString());

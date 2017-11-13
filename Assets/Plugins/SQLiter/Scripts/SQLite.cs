@@ -57,12 +57,12 @@ namespace SQLiter
 		/// </summary>
 		private const string COL_ID = "id";
 		private const string COL_NAME = "name";
-		// using name as example of primary, unique, key
 		private const string COL_SPECIES = "species";
 		private const string COL_TYPE1 = "type1";
 		private const string COL_TYPE2 = "type2";
 		private const string COL_HEIGHT = "height";
 		private const string COL_WEIGHT = "weight";
+		private const string COL_REGION = "region";
 
 		/// <summary>
 		/// DB objects
@@ -119,10 +119,10 @@ namespace SQLiter
 				GetAllPokemon ();
 			});
 
-			InsertPokemon ("001", "Bulbasaur", "Seed Pokemon", "GRASS", "POISON", "2′4″ (0.71m)", "15.2 lbs (6.9 kg)");
-			InsertPokemon ("004", "Charmander", "Lizard Pokemon", "FIRE", null, "2′0″ (0.61m)", "18.7 lbs (8.5 kg)");
-			InsertPokemon ("007", "Squirtle", "Tiny Turtle Pokemon", "WATER", null, "1′8″ (0.51m)", "19.8 lbs (9.0 kg)");
-			InsertPokemon ("025", "Pikachu", "Mouse Pokemon", "ELECTRIC", null, "1′4″ (0.41m)", "13.2 lbs (6.0 kg)");
+			InsertPokemon ("001", "Bulbasaur", "Seed Pokemon", "GRASS", "POISON", "2′4″ (0.71m)", "15.2 lbs (6.9 kg)", "Kanto");
+			InsertPokemon ("004", "Charmander", "Lizard Pokemon", "FIRE", null, "2′0″ (0.61m)", "18.7 lbs (8.5 kg)", "Kanto");
+			InsertPokemon ("007", "Squirtle", "Tiny Turtle Pokemon", "WATER", null, "1′8″ (0.51m)", "19.8 lbs (9.0 kg)", "Kanto");
+			InsertPokemon ("025", "Pikachu", "Mouse Pokemon", "ELECTRIC", null, "1′4″ (0.41m)", "13.2 lbs (6.0 kg)", "Kanto");
 		}
 
 		/// <summary>
@@ -209,7 +209,8 @@ namespace SQLiter
 				COL_TYPE1 + " TEXT, " +
 				COL_TYPE2 + " TEXT, " +
 				COL_HEIGHT + " TEXT, " +
-				COL_WEIGHT + " TEXT)";
+				COL_WEIGHT + " TEXT, " +
+				COL_REGION + " TEXT)";
 				_command.CommandText = _sqlString;
 				_command.ExecuteNonQuery ();
 			} else {
@@ -236,7 +237,7 @@ namespace SQLiter
 		/// <param name="login"></param>
 		/// <param name="level"></param>
 		/// <param name="xp"></param>
-		public void InsertPokemon (string id, string name, string species, string type1, string type2, string height, string weight)
+		public void InsertPokemon (string id, string name, string species, string type1, string type2, string height, string weight, string region)
 		{
 			name = name.ToLower ();
 
@@ -250,7 +251,8 @@ namespace SQLiter
 			+ COL_TYPE1 + ","
 			+ COL_TYPE2 + ","
 			+ COL_HEIGHT + ","
-			+ COL_WEIGHT
+			+ COL_WEIGHT + ","
+			+ COL_REGION
 			+ ") VALUES ("
 			+ "'" + id + "',"// note that string values need quote or double-quote delimiters
 			+ "'" + name + "',"
@@ -258,7 +260,8 @@ namespace SQLiter
 			+ "'" + type1 + "',"
 			+ "'" + type2 + "',"
 			+ "'" + height + "',"
-			+ "'" + weight
+			+ "'" + weight + "',"
+			+ "'" + region
 			+ "');";
 
 			if (DebugMode)
@@ -292,6 +295,7 @@ namespace SQLiter
 				sb.Append (_reader.GetString (4)).Append (" ");
 				sb.Append (_reader.GetString (5)).Append (" ");
 				sb.Append (_reader.GetString (6)).Append (" ");
+				sb.Append (_reader.GetString (7)).Append (" ");
 				sb.AppendLine ();
 
 				// view our output
@@ -330,6 +334,7 @@ namespace SQLiter
 				result.Add (_reader.GetString (4));
 				result.Add (_reader.GetString (5));
 				result.Add (_reader.GetString (6));
+				result.Add (_reader.GetString (7));
 
 				_reader.Close ();
 				_connection.Close ();
