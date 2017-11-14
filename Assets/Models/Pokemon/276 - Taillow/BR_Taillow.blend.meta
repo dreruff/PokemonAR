@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: d3e816ea6336a40ff82fb06e3cfa16ba
+timeCreated: 1510681153
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: subame_mat_0
+    100004: subame_mat_1
+    100006: subame_mat_2
+    100008: subame_mat_3
+    100010: subame_mat_4
+    100012: subame_mat_5
+    100014: subame_mat_6
+    100016: subame_mat_7
+    100018: subame_mat_8
+    100020: subame_mat_9
+    400000: //RootNode
+    400002: subame_mat_0
+    400004: subame_mat_1
+    400006: subame_mat_2
+    400008: subame_mat_3
+    400010: subame_mat_4
+    400012: subame_mat_5
+    400014: subame_mat_6
+    400016: subame_mat_7
+    400018: subame_mat_8
+    400020: subame_mat_9
+    2300000: subame_mat_0
+    2300002: subame_mat_1
+    2300004: subame_mat_2
+    2300006: subame_mat_3
+    2300008: subame_mat_4
+    2300010: subame_mat_5
+    2300012: subame_mat_6
+    2300014: subame_mat_7
+    2300016: subame_mat_8
+    2300018: subame_mat_9
+    3300000: subame_mat_0
+    3300002: subame_mat_1
+    3300004: subame_mat_2
+    3300006: subame_mat_3
+    3300008: subame_mat_4
+    3300010: subame_mat_5
+    3300012: subame_mat_6
+    3300014: subame_mat_7
+    3300016: subame_mat_8
+    3300018: subame_mat_9
+    4300000: subame_mat_7
+    4300002: subame_mat_6
+    4300004: subame_mat_5
+    4300006: subame_mat_4
+    4300008: subame_mat_9
+    4300010: subame_mat_3
+    4300012: subame_mat_8
+    4300014: subame_mat_2
+    4300016: subame_mat_1
+    4300018: subame_mat_0
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_0__subame_0_0_tga
+    second: {fileID: 2100000, guid: e34cfe113fca347ecab4672d77ff870f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_1__subame_0_1_tga
+    second: {fileID: 2100000, guid: 4876d2d6f67ec4a809dfaebb62307d38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_2__subame_0_2_tga
+    second: {fileID: 2100000, guid: b97a38ca492144d74a7a67f4ed65e308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_3__subame_0_3_tga
+    second: {fileID: 2100000, guid: e3830f96434c94677abb750f93fd0a76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_4__subame_0_4_tga
+    second: {fileID: 2100000, guid: 1f4f4a1bc09d645b29e8d163c8c82327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_5__subame_0_5_tga
+    second: {fileID: 2100000, guid: 08515d71e45e547acadbb0ef4b2f3378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_6__subame_0_6_tga
+    second: {fileID: 2100000, guid: b0958bc16a2474fd187c38be14b2d1d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_7__subame_0_7_tga
+    second: {fileID: 2100000, guid: f880253c4b2b94f268aefcad85ba6c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_8__subame_0_8_tga
+    second: {fileID: 2100000, guid: 629a95a221e2e41848c585cfa81edb78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_9__subame_0_9_tga
+    second: {fileID: 2100000, guid: 10bce4dbd04c744fda0e67e372c55ea1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

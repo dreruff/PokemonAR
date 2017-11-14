@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 68e7aed163fd047edbb27a0451c618dc
+timeCreated: 1510681137
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: persian_mat_0
+    100004: persian_mat_1
+    100006: persian_mat_10
+    100008: persian_mat_2
+    100010: persian_mat_3
+    100012: persian_mat_4
+    100014: persian_mat_5
+    100016: persian_mat_6
+    100018: persian_mat_7
+    100020: persian_mat_8
+    100022: persian_mat_9
+    400000: //RootNode
+    400002: persian_mat_0
+    400004: persian_mat_1
+    400006: persian_mat_10
+    400008: persian_mat_2
+    400010: persian_mat_3
+    400012: persian_mat_4
+    400014: persian_mat_5
+    400016: persian_mat_6
+    400018: persian_mat_7
+    400020: persian_mat_8
+    400022: persian_mat_9
+    2300000: persian_mat_0
+    2300002: persian_mat_1
+    2300004: persian_mat_10
+    2300006: persian_mat_2
+    2300008: persian_mat_3
+    2300010: persian_mat_4
+    2300012: persian_mat_5
+    2300014: persian_mat_6
+    2300016: persian_mat_7
+    2300018: persian_mat_8
+    2300020: persian_mat_9
+    3300000: persian_mat_0
+    3300002: persian_mat_1
+    3300004: persian_mat_10
+    3300006: persian_mat_2
+    3300008: persian_mat_3
+    3300010: persian_mat_4
+    3300012: persian_mat_5
+    3300014: persian_mat_6
+    3300016: persian_mat_7
+    3300018: persian_mat_8
+    3300020: persian_mat_9
+    4300000: persian_mat_7
+    4300002: persian_mat_6
+    4300004: persian_mat_5
+    4300006: persian_mat_4
+    4300008: persian_mat_9
+    4300010: persian_mat_3
+    4300012: persian_mat_8
+    4300014: persian_mat_10
+    4300016: persian_mat_2
+    4300018: persian_mat_1
+    4300020: persian_mat_0
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_0__persian_1_0_tga
+    second: {fileID: 2100000, guid: 7b26d6ed4e0dc4ff6814a7948785ca14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_10__persian_1_10_tga
+    second: {fileID: 2100000, guid: 1c6004579954b4c6da7f31b8625b31b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_1__persian_1_1_tga
+    second: {fileID: 2100000, guid: 3c7e82f6902c2435dbc9b2910395adc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_2__persian_1_2_tga
+    second: {fileID: 2100000, guid: 7fe7881086e734c1ba1bc7dacc64ab30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_3__persian_1_3_tga
+    second: {fileID: 2100000, guid: 079d566fd9bb046c995f330e83667355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_4__persian_1_4_tga
+    second: {fileID: 2100000, guid: eb50c1d32eaa14dac94dab85a273fec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_5__persian_1_5_tga
+    second: {fileID: 2100000, guid: 64e8b8a36bc804153a3094482ed78d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_6__persian_1_6_tga
+    second: {fileID: 2100000, guid: cd265dcb2eaa6444685766eb581bbcca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_7__persian_1_7_tga
+    second: {fileID: 2100000, guid: b719e85dd87f1447c8851d9d3ee896bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_8__persian_1_8_tga
+    second: {fileID: 2100000, guid: fed0b726d477c484da9fc08dafb08d02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_9__persian_1_9_tga
+    second: {fileID: 2100000, guid: 50fcdcf21efcf421cafea8bfef80b863, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

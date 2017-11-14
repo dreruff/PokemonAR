@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 5b819fb3cdb2a47e59d28f33ba323ff7
+timeCreated: 1510681126
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: todoggler_mat_0
+    100004: todoggler_mat_1
+    100006: todoggler_mat_2
+    100008: todoggler_mat_3
+    100010: todoggler_mat_4
+    100012: todoggler_mat_5
+    100014: todoggler_mat_6
+    100016: todoggler_mat_7
+    100018: todoggler_mat_8
+    100020: todoggler_mat_9
+    400000: //RootNode
+    400002: todoggler_mat_0
+    400004: todoggler_mat_1
+    400006: todoggler_mat_2
+    400008: todoggler_mat_3
+    400010: todoggler_mat_4
+    400012: todoggler_mat_5
+    400014: todoggler_mat_6
+    400016: todoggler_mat_7
+    400018: todoggler_mat_8
+    400020: todoggler_mat_9
+    2300000: todoggler_mat_0
+    2300002: todoggler_mat_1
+    2300004: todoggler_mat_2
+    2300006: todoggler_mat_3
+    2300008: todoggler_mat_4
+    2300010: todoggler_mat_5
+    2300012: todoggler_mat_6
+    2300014: todoggler_mat_7
+    2300016: todoggler_mat_8
+    2300018: todoggler_mat_9
+    3300000: todoggler_mat_0
+    3300002: todoggler_mat_1
+    3300004: todoggler_mat_2
+    3300006: todoggler_mat_3
+    3300008: todoggler_mat_4
+    3300010: todoggler_mat_5
+    3300012: todoggler_mat_6
+    3300014: todoggler_mat_7
+    3300016: todoggler_mat_8
+    3300018: todoggler_mat_9
+    4300000: todoggler_mat_8
+    4300002: todoggler_mat_3
+    4300004: todoggler_mat_9
+    4300006: todoggler_mat_4
+    4300008: todoggler_mat_5
+    4300010: todoggler_mat_6
+    4300012: todoggler_mat_7
+    4300014: todoggler_mat_0
+    4300016: todoggler_mat_1
+    4300018: todoggler_mat_2
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_0__todoggler_0_0_tga
+    second: {fileID: 2100000, guid: 9417cba3e92d849cb9f12e88ee62fa9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_1__todoggler_0_1_tga
+    second: {fileID: 2100000, guid: ba934809a70fa4b63bf78e08e1a43581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_2__todoggler_0_2_tga
+    second: {fileID: 2100000, guid: e911d570bdc7a4820ba6b13530e1492d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_3__todoggler_0_3_tga
+    second: {fileID: 2100000, guid: d104ca10734f44e95b64b588848d1039, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_4__todoggler_0_4_tga
+    second: {fileID: 2100000, guid: 81598af14b7ed4141a7752846cd7b834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_5__todoggler_0_5_tga
+    second: {fileID: 2100000, guid: e56e0fcb00b28488b85e295d1b5d566d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_6__todoggler_0_6_tga
+    second: {fileID: 2100000, guid: 8713705827b3d425eaf8489940bd75a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_7__todoggler_0_7_tga
+    second: {fileID: 2100000, guid: e8bf4f43781534befb5df64c7bcd7b7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_8__todoggler_0_8_tga
+    second: {fileID: 2100000, guid: 2fe310730bfed4d6c84bbe101fece60b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_9
+    second: {fileID: 2100000, guid: f7e1fa4e0e55a4e02b8e39f6ead2ce61, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
