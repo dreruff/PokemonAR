@@ -72,7 +72,7 @@ namespace SQLiter
 		private IDataReader _reader = null;
 		private string _sqlString;
 
-		private bool _createNewTavle = false;
+		private bool _createNewTavle = true;
 
 		/// <summary>
 		/// Awake will initialize the connection.  

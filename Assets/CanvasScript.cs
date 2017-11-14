@@ -7,15 +7,16 @@ using SQLiter;
 public class CanvasScript : MonoBehaviour
 {
 
-	SQLite sqlite;
+	//SQLite sqlite;
 	Text id;
-	Text name;
+	Text pName;
 	Text region;
 	Text species;
 	RawImage type1;
 	RawImage type2;
 	Text height;
 	Text weight;
+	AudioSource cry;
 
 	// Use this for initialization
 	void Start ()
@@ -23,13 +24,14 @@ public class CanvasScript : MonoBehaviour
 		//sqlite = GetComponent<SQLite> ();
 
 		id = GameObject.Find ("NationalNumber").GetComponent<Text> ();
-		name = GameObject.Find ("Name").GetComponent<Text> ();
+		pName = GameObject.Find ("Name").GetComponent<Text> ();
 		region = GameObject.Find ("Region").GetComponent<Text> ();
 		species = GameObject.Find ("Species").GetComponent<Text> ();
 		type1 = GameObject.Find ("Type1").GetComponent<RawImage> ();
 		type2 = GameObject.Find ("Type2").GetComponent<RawImage> ();
 		height = GameObject.Find ("Height").GetComponent<Text> ();
 		weight = GameObject.Find ("Weight").GetComponent<Text> ();
+		cry = GetComponent<AudioSource> ();
 
 	}
 
@@ -43,6 +45,7 @@ public class CanvasScript : MonoBehaviour
 		setHeight (pokemon[5].ToString ());
 		setWeight (pokemon[6].ToString ());
 		setRegion (pokemon[7].ToString ());
+		setCry ((AudioClip) pokemon[8]);
 	}
 
 
@@ -57,7 +60,7 @@ public class CanvasScript : MonoBehaviour
 		System.Text.StringBuilder sb = new System.Text.StringBuilder(name);
 		sb.Replace (sb [0], char.ToUpper (sb [0]),0,1);
 
-		this.name.text = sb.ToString();
+		this.pName.text = sb.ToString();
 	}
 
 	void setRegion (string region)
@@ -88,6 +91,45 @@ public class CanvasScript : MonoBehaviour
 		case "POISON":
 			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Poison");
 			break;
+		case "BUG":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Bug");
+			break;
+		case "DARK":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Dark");
+			break;
+		case "DRAGON":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Dragon");
+			break;
+		case "FAIRY":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Fairy");
+			break;
+		case "FIGHTING":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Fighting");
+			break;
+		case "FLYING":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Flying");
+			break;
+		case "GHOST":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Ghost");
+			break;
+		case "GROUND":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Ground");
+			break;
+		case "ICE":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Ice");
+			break;
+		case "NORMAL":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Normal");
+			break;
+		case "PSYCHIC":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Psychic");
+			break;
+		case "ROCK":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Rock");
+			break;
+		case "STEEL":
+			type1.texture = (Texture)Resources.Load ("PokemonTypes/Type_Steel");
+			break;
 		default:
 			Debug.Log ("Error should not get here!!!");
 			break;
@@ -114,6 +156,45 @@ public class CanvasScript : MonoBehaviour
 		case "POISON":
 			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Poison");
 			break;
+		case "BUG":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Bug");
+			break;
+		case "DARK":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Dark");
+			break;
+		case "DRAGON":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Dragon");
+			break;
+		case "FAIRY":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Fairy");
+			break;
+		case "FIGHTING":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Fighting");
+			break;
+		case "FLYING":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Flying");
+			break;
+		case "GHOST":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Ghost");
+			break;
+		case "GROUND":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Ground");
+			break;
+		case "ICE":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Ice");
+			break;
+		case "NORMAL":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Normal");
+			break;
+		case "PSYCHIC":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Psychic");
+			break;
+		case "ROCK":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Rock");
+			break;
+		case "STEEL":
+			type2.texture = (Texture)Resources.Load ("PokemonTypes/Type_Steel");
+			break;
 		default:
 			type2.enabled = false;
 			Debug.Log ("No second type");
@@ -131,5 +212,12 @@ public class CanvasScript : MonoBehaviour
 		this.weight.text = weight;
 	}
 
+	void setCry (AudioClip clip)
+	{
+		cry.clip = clip;
+	}
 
+	public void PlayCry(){
+		cry.Play ();
+	}
 }
