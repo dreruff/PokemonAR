@@ -123,6 +123,14 @@ namespace SQLiter
 			InsertPokemon ("004", "Charmander", "Lizard Pokemon", "FIRE", null, "2′0″ (0.61m)", "18.7 lbs (8.5 kg)", "Kanto");
 			InsertPokemon ("007", "Squirtle", "Tiny Turtle Pokemon", "WATER", null, "1′8″ (0.51m)", "19.8 lbs (9.0 kg)", "Kanto");
 			InsertPokemon ("025", "Pikachu", "Mouse Pokemon", "ELECTRIC", null, "1′4″ (0.41m)", "13.2 lbs (6.0 kg)", "Kanto");
+			InsertPokemon ("053", "Persian", "Classy Cat Pokemon", "NORMAL", null, "3′3″ (0.99m)", "70.5 lbs (32.0 kg)", "Kanto");
+			InsertPokemon ("111", "Rhyhorn", "Spikes Pokemon", "GROUND", "ROCK", "3′3″ (0.99m)", "253.5 lbs (115.0 kg)", "Kanto");
+			InsertPokemon ("276", "Taillow", "TinySwallow Pokemon", "NORMAL", "FLYING", "1′0″ (0.30m)", "5.1 lbs (2.3 kg)", "Hoenn");
+			InsertPokemon ("364", "Sealeo", "Ball Roll Pokemon", "ICE", "WATER", "3′7″ (1.09m)", "193.1 lbs (87.6 kg)", "Hoenn");
+			InsertPokemon ("432", "Purugly", "Tiger Cat Pokemon", "NORMAL", null, "3′3″ (0.99m)", "96.6 lbs (43.8 kg)", "Sinnoh");
+			InsertPokemon ("475", "Gallade", "Blade Pokemon", "PSYSCHIC", "FIGHTING", "5′3″ (1.60m)", "114.6 lbs (52.0 kg)", "Sinnoh");
+			InsertPokemon ("653", "Fennekin", "Fox Pokemon", "FIRE", null, "1′4″ (0.41m)", "20.7 lbs (9.4 kg)", "Kalos");
+
 		}
 
 		/// <summary>

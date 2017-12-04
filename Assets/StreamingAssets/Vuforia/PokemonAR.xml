@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="9spades" size="5.000000 7.000000" />
-    <ImageTarget name="9hearts" size="5.000000 7.000000" />
-    <ImageTarget name="9diamonds" size="5.000000 7.000000" />
-    <ImageTarget name="9clubs" size="5.000000 7.000000" />
+    <ImageTarget name="PersianCard" size="5.000000 6.979592" />
+    <ImageTarget name="TrubbishCard" size="5.000000 6.979592" />
+    <ImageTarget name="RhyhornCard" size="5.000000 6.979592" />
+    <ImageTarget name="PiplupCard" size="5.000000 6.979592" />
+    <ImageTarget name="GalladeCard" size="5.000000 6.979592" />
+    <ImageTarget name="TaillowCard" size="5.000000 6.979592" />
+    <ImageTarget name="PuruglyCard" size="5.000000 6.979592" />
+    <ImageTarget name="SealeoCard" size="5.000000 6.979592" />
+    <ImageTarget name="FennekinCard" size="5.000000 6.979592" />
+    <ImageTarget name="PikachuCard" size="5.000000 6.987577" />
   </Tracking>
 </QCARConfig>
